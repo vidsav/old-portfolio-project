@@ -1,0 +1,139 @@
+<html>
+<head>
+
+	<title>Portfolio-VidSavnik</title>
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="lib/fullpage/jquery.fullPage.css" />
+	<link rel="stylesheet" href="css/style.css" />
+
+	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="lib/fullpage/vendors/jquery.easings.min.js"></script>
+	<script src="lib/fullpage/vendors/jquery.slimscroll.min.js"></script>
+	<script src="lib/fullpage/jquery.fullPage.min.js"></script>
+	<script src="lib/parallax.min.js"></script>
+
+	<script src="js/app.js"></script>
+
+</head>
+<body>
+    
+
+    <div class="logo-image">
+        <img src="imgs/logovid9.png">
+    </div>
+
+    
+	<div class="menu">
+        <a class="button" href="#firstPage">HOME</a>
+        <a class="button" href="#secondPage">ABOUT</a>
+        <a class="button" href="#thirdPage">PROJECTS</a>
+		<a class="button" href="#fourthPage">CONTACT</a>
+	</div>
+
+	<div id="fullpage">
+
+		<div class="section page-one" data-anchor="#firstPage" data-parallax="scroll" data-image-src="imgs/cliff2.jpg">
+            
+            <div class="home-title"></div>
+            <h1>Hi, my name is <strong>Vid</strong>,</br>
+            <strong>{web designer}</strong> & <strong>< developer/ ></strong></br>
+                from Ljubljana</h1>
+
+		</div>
+
+		<div class="section page-two" data-anchor="#secondPage" data-parallax="scroll" data-image-src="imgs/webdesign1.png">  
+            
+            <div class="about-title">
+            <h2>A little something about me</h2>
+            </div>
+            
+            <div class="images">
+             <img src="imgs/about-icons3.png">
+            </div>
+            
+            <div class="middle-line">
+          
+            </div>
+        <div class="about-text-wraper">                
+        <div class="about-text">
+            <p>As a passionate developer, designer and gamer, I have always known that I would end up in the creative and dynamic industry of web design. Whether it's a mobile app or a more personal computer orianted project I have the skill to bring an idea to life. From programs such as Photoshop, Illustrator, to simple coding in HTML, CSS and Javascript to a complex framework such as NodeJS and Angular. Born and raised in a small but very beautifull country of Slovenia and educated on a popular international school SAE, I am always looking for people to work with and build awesome, longlasting partnerships.</p>
+        
+            </div>
+            </div>
+        </div>
+    
+    
+		<div class="section page-three" data-anchor="#thirdPage" data-parallax="scroll" data-image-src="imgs/page31.jpg">
+           
+            <div class="project-text">
+            <h2>
+                Projects
+            </h2>
+            </div>
+            <div class="projects">
+                <div class="project" style="background-color:#004358;">
+                    
+                </div>
+                <div class="project" style="background-color:#95AB63;">
+                
+                </div>
+                <div class="project" style="background-color:#4C1B1B;">
+                
+                </div>
+		</div>
+            <div class="titles">
+                <div class="project-title">
+                    <h3>PROJECT TITLE 1</h3>
+                </div>
+                <div class="project-title">
+                    <h3>PROJECT TITLE 2</h3>
+                </div>
+                <div class="project-title">
+                    <h3>PROJECT TITLE 3</h3>
+                </div>
+            </div>
+    </div>
+		<div class="section page-four" data-anchor="#fourthPage" data-parallax="scroll" data-image-src="imgs/page41.jpg">
+            <div class="contact-title">
+            <h2>Contact</h2>
+            </div>
+            <div class="form-wraper">
+            <div class="contact-wraper">
+                <p>savnikvid5@gmail.com</p>
+                <a href="https://www.linkedin.com/in/vid-savnik-755335a4?trk=nav_responsive_tab_profile">
+                <img src="imgs/linkedinlogo2.png">
+                </a>
+            </div>
+        <div class="article">    
+	   <form method="post" action="contact-form.php">
+				<div>
+					<label for="name">Name:</label>
+					<input type="text" class="oneLineForm" placeholder="Name" size="39" name="name" required><span class="error"> * <?php echo isset($nameErr);?></span>
+				</div>
+				<div>
+					<label for="mail">E-mail:</label>
+					<input type="email" class="oneLineForm" placeholder="Email" size="39" name="email" required><span class="error"> * <?php echo isset($emailErr);?></span>
+				</div>
+				<div>
+					<label for="subject">Subject:</label>
+					<input type="text" class="oneLineForm" placeholder="Subject" size="39" name="subject" required><span class="error"> * <?php echo isset($subjectErr);?></span>
+				</div>
+				<div>
+					<label for="msg">Message:</label>
+					<textarea class="message" placeholder="Message" cols="41" rows="8" name="msg" required></textarea><span class="error"> * <?php echo isset($msgErr);?></span>
+				</div>
+				<div class="formButton">
+					<input type="submit" value="Send" class="formButton">
+				</div>
+				</form>
+            </div>
+            </div>
+			</div>
+					
+		</div>
+            
+
+</body>
+</html>

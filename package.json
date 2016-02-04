@@ -1,0 +1,17 @@
+{
+  "name": "introduction",
+  "version": "0.0.1",
+  "description": "My first node app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Franci",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.12.4",
+    "ejs": "^2.3.1",
+    "express": "^4.12.4",
+    "nodemailer": "^1.3.4"
+  }
+}

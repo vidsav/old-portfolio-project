@@ -1,0 +1,125 @@
+body{
+    
+    background-color: #BD4932;
+    
+}
+
+.main-button{
+    
+    margin: 0;
+    padding: 0 2px;
+	position:absolute;
+	bottom:-90px;
+	left:880;
+    background-color:#1F8A70;
+    border-radius:10px;
+    width: 120px;
+    color: #FFFFFF;
+	font-family:Helvetica;
+	font-size:20px;
+    text-align: center;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    
+    font-size:20px;
+    text-align: center;
+    font-family: Helvetica;
+    
+}
+
+.article{
+    
+    position: absolute;
+    margin: auto;
+    top: 0; left: 0; right: 0; bottom: 0;
+    height:470px;
+    
+}
+
+.content-wraper{
+    
+    position:relative;
+    margin:0 auto;
+    width:600px;
+    height:400px;
+    background-color: #FFFAD5;
+    border-radius: 10px;
+    
+}
+
+form {
+    
+    position: absolute;
+	width: 550px;
+    height: 290px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	padding: 20px 20px 10px 20px;
+	text-align:left;
+	font-size: 14px;
+}
+
+form div + div {
+    margin-top: 12px;
+}
+
+label{
+	display:inline-block;
+	width: 70px;
+	text-align:right;
+	font-family:Arial;
+}
+
+.input{
+    
+    font-size:12px;
+    
+}
+
+.oneLineForm{
+    
+    height:30px;   
+}
+
+
+.formButton{
+	font-family:Roboto;
+    margin-top: 5px;
+    margin-right: 20px;
+	text-decoration: none;
+	font-size:18px;
+	text-align:center; 
+    cursor: pointer;
+    
+}
+
+.about-text{
+    
+    position:absolute;
+    top: 150px;
+    right: 80px;
+    width: 200px;
+    height: 100px;
+    color:#000130;
+    
+}
+
+textarea{
+	vertical-align:text-top;
+}
+
+.mailSent{
+    
+    padding-top:20px;
+    font-size:18px;
+    margin-left:50px;
+    color:#D90000;
+    
+}
